@@ -4,7 +4,7 @@
 
 Simple react app bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Created to explore more on react 16 component lifecycle methods
+Created to explore more on [react 16 component lifecycle methods](https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282)
 
 ## Available Scripts
 
