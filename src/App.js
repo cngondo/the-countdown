@@ -6,14 +6,28 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      dateToday: 0
+      currentDate: 45,
+      finalDate: 100,
+      daysLeft: 55
     };
+    this.getDaysLeft = this.getDaysLeft.bind(this);
   }
+
+  // compute number of days left
+  // getDaysLeft
+  getDaysLeft() {
+    // get final date
+    // get current date
+    // get difference and round off to the nearest days
+    // return number days
+  }
+
   render() {
+    const { daysLeft } = this.state;
     return (
       <div className="App">
         <h2>Some Title of a Timer</h2>
-        <Progress />
+        <Progress daysLeft={daysLeft} />
       </div>
     );
   }
