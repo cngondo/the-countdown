@@ -26,7 +26,7 @@ class App extends Component {
     const { daysLeft } = this.state;
     return (
       <div className="App">
-        <h2>Some Title of a Timer</h2>
+        <h2>Number of days left before cohort ends</h2>
         <Progress daysLeft={daysLeft} />
       </div>
     );

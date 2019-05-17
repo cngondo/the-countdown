@@ -5,7 +5,7 @@ export default class Progress extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      completion: 0
+      completion: 30
     };
   }
   render() {
@@ -14,8 +14,9 @@ export default class Progress extends Component {
       <div>
         <p>x days gone</p>
         <p>x days left</p>
-        <p>Progress bar goes here</p>
-        <Filler percentage={completion} />
+        <div className="progress-bar">
+          <Filler percentage={completion} />
+        </div>
       </div>
     );
   }
